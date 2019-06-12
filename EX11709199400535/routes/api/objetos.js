@@ -48,5 +48,8 @@ router.put('/:id', (req, res, next)=>{
 	res.status(403).json({msg:"not implemented"});
 });//put //modificar
 
+router.delete('/:id', (req, res, next)=>{
+	res.status(403).json({msg:"not implemented"});
+});//delete
 
 module.exports = router;
