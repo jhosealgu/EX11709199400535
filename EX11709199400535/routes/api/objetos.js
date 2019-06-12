@@ -44,6 +44,9 @@ router.post('/',(req, res, next)=>{
 });// post //crear un nuevo
 
 
+router.put('/:id', (req, res, next)=>{
+	res.status(403).json({msg:"not implemented"});
+});//put //modificar
 
 
 module.exports = router;
